@@ -1,0 +1,49 @@
+/* Admin.css */
+body {
+   /* background-image: url(https://i.pinimg.com/originals/4a/96/e6/4a96e602750b8ef669a77565becf3939.gif); */
+     }
+.admin-card {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Add margin between cards */
+  
+    transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transition */
+  }
+  
+  .admin-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Apply rounded top corners to image */
+  }
+  
+  .admin-card:hover {
+    transform: scale(1.05); /* Apply scale effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adjust shadow on hover */
+  }
+  .hover:hover{
+    transform: scale(1.05); /* Apply scale effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adjust shadow on hover */
+  }
+  /* Admin.css */
+/* ...other styles... */
+.side-nav {
+  width: 150px;
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
